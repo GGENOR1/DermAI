@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+    color: #000000;
+  /* Дополнительные стили */
+}
+
+.resultList {
+  list-style: none;
+  padding: 20px;
+    background: #dcd9d9;
+}
+
+.resultList li {
+  margin-bottom: 10px;
+}
+
+
+/* styles.css */
+.fileInput {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  /* Дополнительные стили по необходимости */
+}
+
+.fileInput:hover {
+  background-color: #f0f0f0;
+}
+
+
+.customFileInput {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+}
+
+.customFileInput:hover {
+  background-color: #d96363;
+}
+
+
+.customButton {
+  /* Стилизация кнопки */
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.customButtonInput:hover {
+  background-color: #d96363;
+}
+.customButton:hover {
+  background-color: #f80000;
+}
+
+/* Скрываем настоящую кнопку */
+.customButton input[type="button"] {
+  display: none;
+}
